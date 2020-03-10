@@ -10,14 +10,14 @@
 * It executes every 12 Hours, but you can edit the scedule and set a CRON time on a time or date that you want to execute the Function App. Shown in a code below.
  * function.json
 ```json
-	{
-		"bindings": [
-			{
-				"name": "Timer",
-				"type": "timerTrigger",
-				"direction": "in",
-				"schedule": "0 0 */12 * * *"
-			}
-		 ]
-	}
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 */12 * * *"
+    }
+  ]
+}
 ```
